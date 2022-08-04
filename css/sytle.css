@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(#000046, #1CB5E0) fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 400px;
+    height: 500px;
+    border-radius:20px;
+
+}
+input {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius:20px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+button {
+    font-size: 25px;
+    color: #ffffff;
+    border-radius:20px;
+    border:solid 1px;
+    width: 310px;
+    height: 40px;
+    background-image: linear-gradient(to right, #1CB5E0 0%, #000046  51%, #1CB5E0  100%);
+    margin-left: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+h1 {
+    padding-top: 30px;
+    margin-left: 30px;
+}
+label {
+    margin-left: 30px;
+    font-weight: bold
+}
+input::placeholder {
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.nome, .email, .senha {
+    position: relative;
+}
+.nome i, .email i, .senha i{
+    position: relative;
+    padding-left: 40px;
+    top: -28px;
+    color: #1CB5E0;
+}
+input[type=text] {
+    padding-left: 20px;
+    font-size: 15px;
+}
+input[type=email] {
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+input[type=password] {
+    padding-left: 25px;
+    font-size: 15px;
+}
+
