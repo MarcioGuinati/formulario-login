@@ -12,12 +12,12 @@ body {
 }
 .form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     background-color: #ffffff;
     width: 400px;
     height: 500px;
     border-radius:20px;
-
 }
 input {
     display: flex;
@@ -25,8 +25,11 @@ input {
     height: 30px;
     border: 2px solid black;
     border-radius:20px;
-    margin-left: 30px;
     margin-top: 5px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
 }
 button {
     font-size: 25px;
@@ -36,16 +39,13 @@ button {
     width: 310px;
     height: 40px;
     background-image: linear-gradient(to right, #1CB5E0 0%, #000046  51%, #1CB5E0  100%);
-    margin-left: 30px;
     font-weight: bold;
     cursor: pointer;
 }
 h1 {
     padding-top: 30px;
-    margin-left: 30px;
 }
 label {
-    margin-left: 30px;
     font-weight: bold
 }
 input::placeholder {
@@ -58,7 +58,7 @@ input::placeholder {
 }
 .nome i, .email i, .senha i{
     position: relative;
-    padding-left: 40px;
+    padding-left: 10px;
     top: -28px;
     color: #1CB5E0;
 }
